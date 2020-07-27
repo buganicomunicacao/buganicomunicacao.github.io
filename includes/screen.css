@@ -49,7 +49,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #header ul.language-selector { position: absolute; top: 32px; right: 0; list-style: none; margin: 0; padding: 0; }
 #header ul.language-selector li { display: inline; margin-left: 9px; }
 #header ul.language-selector li img { vertical-align: -5px; }
-section.banner { background: url(../images/globe.png) no-repeat -85px 5px; height: 180px; overflow: hidden; }
+section.banner { background: url(../images/globe.png) no-repeat -85px 5px; height: 180px;  }
 * html section.banner { behavior: url(http://www.technologyswiss.com/stylesheets/iepngfix.htc); position: relative; left: -85px; padding-left: 85px; }
 section.main { background: url(../images/backgrounds/main.png) no-repeat top; min-height: 550px; height: auto !important; height: 550px; }
 * html section.main { behavior: url(http://www.technologyswiss.com/stylesheets/iepngfix.htc); }
@@ -126,7 +126,7 @@ nav.submenu ul, ul.submenu { font-family: "Open Sans", Helvetica, Arial, sans-se
 nav.submenu ul li, ul.submenu li { display: inline; }
 nav.submenu ul a, ul.submenu a { background: url(../images/bullet.png) no-repeat 10px center; display: block; padding: 4px 5px 5px 25px; text-decoration: none; color: #669933; margin: 2px 0; }
 nav.submenu ul li.current a, nav.submenu ul a:hover, ul.submenu li.current a, ul.submenu a:hover { -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; background-color: #f3f3f3; background-image: url(../images/bullet-dark.png); color: #466e1e; }
-/* Home Page */ .home section.banner { margin-top: 5px; height: 345px; background-position: 25px bottom; overflow: hidden; }
+/* Home Page */ .home section.banner { margin-top: 5px; height: 400px; background-position: 25px bottom; overflow: hidden; }
 .home section.banner h1, .home section.banner p { width: 480px; margin-left: 450px; }
 * html .home section.banner { position: relative; left: 25px; padding-left: 0; }
 * html .home section.banner h1, * html .home section.banner p { margin-left: 420px; }
